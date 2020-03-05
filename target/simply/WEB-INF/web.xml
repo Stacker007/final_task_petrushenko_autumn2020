@@ -15,7 +15,7 @@ http://xmlns.jcp.org/xml/ns/javaee "
     <filter-name>AuthFilter</filter-name>
     <url-pattern>/</url-pattern>
   </filter-mapping>-->
-  <!--Encoding filter UTF-8 for all requests-->
+  <!--Encoding filter UTF-8 for all requests
   <filter>
     <filter-name>EncodingRequestFilter</filter-name>
     <filter-class>by.simplypvs.servlets.filters.EncodingRequestFilter</filter-class>
@@ -25,9 +25,9 @@ http://xmlns.jcp.org/xml/ns/javaee "
     <filter-name>EncodingRequestFilter</filter-name>
     <url-pattern>/</url-pattern>
   </filter-mapping>
+-->
 
-
-  <!--Encoding filter UTF-8 for all requests-->
+  <!--Encoding filter UTF-8 for all requests
   <filter>
     <filter-name>EncodingResponseFilter</filter-name>
     <filter-class>by.simplypvs.servlets.filters.EncodingResponseFilter</filter-class>
@@ -36,7 +36,7 @@ http://xmlns.jcp.org/xml/ns/javaee "
   <filter-mapping>
     <filter-name>EncodingResponseFilter</filter-name>
     <url-pattern>/</url-pattern>
-  </filter-mapping>
+  </filter-mapping>-->
 
   <!--Logout servlet-->
   <servlet>
@@ -48,4 +48,14 @@ http://xmlns.jcp.org/xml/ns/javaee "
     <servlet-name>LogoutServlet</servlet-name>
     <url-pattern>/logout</url-pattern>
   </servlet-mapping>
+  <!--<servlet-mapping>
+    <servlet-name>accessFiles</servlet-name>
+    <url-pattern>/view/*</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>accessFiles</servlet-name>
+    <servlet-class>LinkPagesServlet</servlet-class>
+  </servlet>-->
 </web-app>

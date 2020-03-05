@@ -1,5 +1,6 @@
 D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\servlets\filters\AuthFilter.java
 D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\servlets\listeners\AppContextListener.java
+D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\servlets\LoginServlet.java
 D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\servlets\filters\EncodingRequestFilter.java
 D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\dao\UserDAO.java
 D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\model\User.java

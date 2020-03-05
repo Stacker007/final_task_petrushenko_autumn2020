@@ -5,5 +5,6 @@ by\simplypvs\servlets\IndexServlet.class
 by\simplypvs\servlets\listeners\AppContextListener.class
 by\simplypvs\dao\UserDAO.class
 by\simplypvs\servlets\filters\AuthFilter.class
+by\simplypvs\servlets\LoginServlet.class
 by\simplypvs\model\User.class
 by\simplypvs\model\User$ROLE.class
