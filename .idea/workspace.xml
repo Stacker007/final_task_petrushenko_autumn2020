@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fde6c41a-2f3b-4c7c-9c39-5f16f2350530" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/dao/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/MD5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simply.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/view/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/listeners/AppContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/listeners/AppContextListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -68,6 +64,26 @@
       <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\WEB-INF\view\img" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="MD5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.simplypvs.servlets.MD5" />
+      <module name="final_task_petrushenko_autumn2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.simplypvs.servlets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MD5" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -98,35 +114,39 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="448" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1583422153956" />
-    <state x="488" y="86" key="#com.intellij.ide.util.MemberChooser" timestamp="1583350240917">
+    <state x="488" y="86" key="#com.intellij.ide.util.MemberChooser" timestamp="1583435599071">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="488" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1583350240917" />
+    <state x="488" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1583435599071" />
     <state x="463" y="135" key="FileChooserDialogImpl" timestamp="1583171244339">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="135" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1583171244339" />
     <state x="463" y="140" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1582970910918" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1583427750147">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1583432664684">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583427750147" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583432664684" />
     <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582974840035" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1583427750146">
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1583432664683">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583427750146" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583432664683" />
     <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582974840034" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1583427750146">
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1583432664683">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583427750146" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583432664683" />
     <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582974840034" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1583427750147">
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1583432664683">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583427750147" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583432664683" />
     <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582974840034" />
+    <state x="213" y="25" key="Maven.ArtifactSearchDialog" timestamp="1583436281138">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="213" y="25" key="Maven.ArtifactSearchDialog/0.0.1366.738@0.0.1366.738" timestamp="1583436281138" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1582970914204">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

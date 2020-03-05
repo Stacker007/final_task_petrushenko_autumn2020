@@ -1,54 +1,61 @@
 package by.simplypvs.model;
 
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class User {
+
     private int id;
+
     private String login;
+
     private String password;
-    private ROLE role;
-    public enum ROLE {
-        USER, ADMIN, UNKNOWN, NOT_AUTH_USER
+
+    private Role role;
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof User)) return false;
+        User user = (User) o;
+        return login.equals(user.login) && password.equals(user.password) && role.equals(user.role);
     }
 
-    public User() {
+    @Override
+    public int hashCode() {
+        int result = super.hashCode();
+        result = 31 * result + login.hashCode();
+        result = 31 * result + password.hashCode();
+        result = 31 * result + role.hashCode();
+        return result;
     }
 
+    @Data
+    @AllArgsConstructor
+    public static class Role {
 
-    public User(int id, String login, String password, ROLE role) {
-        this.id = id;
-        this.login = login;
-        this.password = password;
-        this.role = role;
-    }
+        private int id;
 
-    public int getId() {
-        return id;
-    }
+        private String name;
 
-    public void setId(int id) {
-        this.id = id;
-    }
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (!(o instanceof Role)) return false;
+            Role role = (Role) o;
+            return name.equals(role.name);
+        }
 
-    public String getLogin() {
-        return login;
-    }
-
-    public void setLogin(String login) {
-        this.login = login;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public ROLE getRole() {
-        return role;
-    }
-
-    public void setRole(ROLE role) {
-        this.role = role;
+        @Override
+        public int hashCode() {
+            int result = super.hashCode();
+            result = 31 * result + name.hashCode();
+            return result;
+        }
     }
 }
