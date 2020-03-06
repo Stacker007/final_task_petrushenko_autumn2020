@@ -7,7 +7,5 @@ public class MD5 {
         return DigestUtils.md5Hex(text);
     }
 
-    public static void main(String[] args) {
-        System.out.println(md5ApacheExample("17857"));
-    }
+
 }

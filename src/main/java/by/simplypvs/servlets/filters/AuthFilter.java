@@ -46,15 +46,15 @@ public class AuthFilter implements Filter {
             moveToMenu(req, res, role);
 
 
-        } else if (dao.get().userIsExist(login, password)) {
-
-            final User.ROLE role = dao.get().getRoleByLoginPassword(login, password);
-
-            req.getSession().setAttribute("password", password);
-            req.getSession().setAttribute("login", login);
-            req.getSession().setAttribute("role", role);
-
-            moveToMenu(req, res, role);
+//        } else if (dao.get().userIsExist(login, password)) {
+//
+//            final User.ROLE role = dao.get().getRoleByLoginPassword(login, password);
+//
+//            req.getSession().setAttribute("password", password);
+//            req.getSession().setAttribute("login", login);
+//            req.getSession().setAttribute("role", role);
+//
+//            moveToMenu(req, res, role);
 
         } else {
 

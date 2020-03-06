@@ -1,7 +1,8 @@
 package by.simplypvs.dao;
 
 import by.simplypvs.model.User;
-import com.sun.istack.internal.NotNull;
+import org.jetbrains.annotations.NotNull;
+//import com.sun.istack.internal.NotNull;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

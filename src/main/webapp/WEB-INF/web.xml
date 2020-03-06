@@ -5,11 +5,11 @@
 http://xmlns.jcp.org/xml/ns/javaee "
          version="3.1">
 
-  <!--filter check exist session for sign in-->
+  <!--filter check exist session for sign in-
   <filter>
     <filter-name>AuthFilter</filter-name>
     <filter-class>by.simplypvs.servlets.filters.AuthFilter</filter-class>
-  </filter>
+  </filter>-->
 
   <!--<filter-mapping>
     <filter-name>AuthFilter</filter-name>
