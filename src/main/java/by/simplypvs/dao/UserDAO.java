@@ -7,6 +7,8 @@ import org.jetbrains.annotations.NotNull;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class UserDAO implements DAO<User,String> {
 
@@ -14,16 +16,20 @@ public class UserDAO implements DAO<User,String> {
      * Connection of database.
      */
     @NotNull
-    private final Connection connection;
+    private final Connection connection ;
 
     /**
      * Init database connection.
      *
      * @param connection of database.
      */
+
     public UserDAO(final Connection connection) {
         this.connection = connection;
     }
+
+
+
 
 
     @Override
@@ -68,4 +74,6 @@ public class UserDAO implements DAO<User,String> {
             this.QUERY = QUERY;
         }
     }
+
+
 }

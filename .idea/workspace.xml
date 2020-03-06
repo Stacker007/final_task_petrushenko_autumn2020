@@ -2,44 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fde6c41a-2f3b-4c7c-9c39-5f16f2350530" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/dao/TaskDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/connectors/ConnectionProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/connectors/SQLConnectionData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/ContextListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/model/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/MD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/MD5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/IndexServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/filters/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/filters/AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/img/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/img/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/simply.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/css/simply.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.12.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/js/jquery-1.12.4.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/wb.parallax.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/js/wb.parallax.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/dao/UserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/model/User$ROLE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/IndexServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/LogoutServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/MD5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/MD5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/filters/AuthFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/filters/EncodingRequestFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/filters/EncodingResponseFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/listeners/AppContextListener.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/simply.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/dao/UserDAO$SQLUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/dao/UserDAO$SQLUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/dao/UserDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/model/User$ROLE.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/model/User$ROLE.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/servlets/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/servlets/IndexServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/servlets/filters/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/servlets/filters/AuthFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/servlets/listeners/AppContextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/servlets/listeners/AppContextListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/view/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/view/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/view/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,14 +73,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\WEB-INF" />
+      <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp" />
       <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\WEB-INF\view" />
       <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\img" />
-      <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp" />
-      <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\css" />
-      <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\recources" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\css" />
     </key>
   </component>
@@ -149,6 +138,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1583506873272" />
+    <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583523306312">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1583523306312" />
     <state x="258" y="0" key="CommitChangelistDialog2" timestamp="1583505330696">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -158,34 +151,34 @@
     </state>
     <state x="463" y="135" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1583171244339" />
     <state x="463" y="140" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1582970910918" />
-    <state width="1323" height="156" key="GridCell.Tab.0.bottom" timestamp="1583506526634">
+    <state width="1323" height="156" key="GridCell.Tab.0.bottom" timestamp="1583526851446">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583506526634" />
+    <state width="1323" height="156" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583526851446" />
     <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582974840035" />
-    <state width="1323" height="156" key="GridCell.Tab.0.center" timestamp="1583506526634">
+    <state width="1323" height="156" key="GridCell.Tab.0.center" timestamp="1583526851446">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583506526634" />
+    <state width="1323" height="156" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583526851446" />
     <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582974840034" />
-    <state width="1323" height="156" key="GridCell.Tab.0.left" timestamp="1583506526633">
+    <state width="1323" height="156" key="GridCell.Tab.0.left" timestamp="1583526851445">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583506526633" />
+    <state width="1323" height="156" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583526851445" />
     <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582974840034" />
-    <state width="1323" height="156" key="GridCell.Tab.0.right" timestamp="1583506526634">
+    <state width="1323" height="156" key="GridCell.Tab.0.right" timestamp="1583526851446">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583506526634" />
+    <state width="1323" height="156" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583526851446" />
     <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582974840034" />
     <state x="213" y="25" key="Maven.ArtifactSearchDialog" timestamp="1583436281138">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="213" y="25" key="Maven.ArtifactSearchDialog/0.0.1366.738@0.0.1366.738" timestamp="1583436281138" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1583506004515">
+    <state x="163" y="0" key="SettingsEditor" timestamp="1583526107044">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1583506004515" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1583526107043" />
     <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1582970914204" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1583168106103">
       <screen x="0" y="0" width="1366" height="738" />

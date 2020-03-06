@@ -19,7 +19,7 @@ body
 #Layer1
 {
    background-color: transparent;
-   background-image: url(https://www.setwalls.ru/pic/201304/1400x1050/setwalls.ru-10872.jpg);
+   background-image: url(./img/background.jpg);
    background-repeat: no-repeat;
    background-position: center top;
    background-attachment: fixed;

@@ -1,8 +1,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <style>
-<%@include file='/css/simply.css' %>
-<%@include file='/css/index.css' %>
+<%@include file='/WEB-INF/view/css/index.css' %>
+<%@include file='/WEB-INF/view/css/index.css' %>
 
 
 </style>
