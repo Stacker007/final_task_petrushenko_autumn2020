@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fde6c41a-2f3b-4c7c-9c39-5f16f2350530" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/connectors/ConnectionProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/connectors/SQLConnectionData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/ContextListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/IndexServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/filters/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/filters/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/img/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simply.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/dao/UserDAO$SQLUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/dao/UserDAO$SQLUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/dao/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/model/User$ROLE.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/model/User$ROLE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/servlets/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/servlets/IndexServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/servlets/filters/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/classes/by/simplypvs/servlets/filters/AuthFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/view/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/view/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/view/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/view/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simply/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/simply/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
