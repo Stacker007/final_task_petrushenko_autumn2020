@@ -2,31 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fde6c41a-2f3b-4c7c-9c39-5f16f2350530" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/TaskPageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/connectors/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/access-denied.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/css/access-denied.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/images/403.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/403.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/IndexServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/filters/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/filters/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/css/admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/simply.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/css/simply.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/task_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/css/task_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/bckgrnd.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/bckgrnd.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/IndexServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/filters/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/filters/AuthFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/TaskPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/TaskPageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/bckgrnd.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/images/bckgrnd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/img/bckgrnd.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/bckgrnd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/TaskPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/TaskPageServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-09" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-10" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/index_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/login_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/login_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/login_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/task_005fpage_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/task_005fpage_jsp.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,25 +65,26 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\WEB-INF\view" />
-      <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\WEB-INF" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp" />
-      <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\img" />
+      <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\WEB-INF\view\img" />
       <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\css" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="by.simplypvs.servlets" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\WEB-INF\view\img" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\WEB-INF\view" />
+      <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\WEB-INF" />
+      <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp" />
+      <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\img" />
       <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\css" />
     </key>
   </component>
@@ -139,6 +138,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="9" width="816" height="729" key="#Intentions/0.0.1366.738@0.0.1366.738" timestamp="1583169263412" />
+    <state x="413" y="124" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583867046702">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="124" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1583867046702" />
     <state x="137" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583594631821">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -173,25 +176,25 @@
     </state>
     <state x="463" y="135" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1583171244339" />
     <state x="463" y="140" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1582970910918" />
-    <state width="1323" height="156" key="GridCell.Tab.0.bottom" timestamp="1583861924241">
+    <state width="1323" height="156" key="GridCell.Tab.0.bottom" timestamp="1583871077015">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583861924241" />
+    <state width="1323" height="156" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583871077015" />
     <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582974840035" />
-    <state width="1323" height="156" key="GridCell.Tab.0.center" timestamp="1583861924241">
+    <state width="1323" height="156" key="GridCell.Tab.0.center" timestamp="1583871077015">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583861924241" />
+    <state width="1323" height="156" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583871077015" />
     <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582974840034" />
-    <state width="1323" height="156" key="GridCell.Tab.0.left" timestamp="1583861924241">
+    <state width="1323" height="156" key="GridCell.Tab.0.left" timestamp="1583871077014">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583861924241" />
+    <state width="1323" height="156" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583871077014" />
     <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582974840034" />
-    <state width="1323" height="156" key="GridCell.Tab.0.right" timestamp="1583861924241">
+    <state width="1323" height="156" key="GridCell.Tab.0.right" timestamp="1583871077015">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="156" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583861924241" />
+    <state width="1323" height="156" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583871077015" />
     <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582974840034" />
     <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1583861924229">
       <screen x="0" y="0" width="1366" height="738" />

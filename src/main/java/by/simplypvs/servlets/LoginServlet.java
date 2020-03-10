@@ -47,14 +47,14 @@ public class LoginServlet extends HttpServlet {
                     req.setAttribute("message", "ok");
                     resp.sendRedirect("/simply/task-page");
 
-                }else {
+                } else {
                     req.setAttribute("message", "Authentication error.");
-                    req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req,resp);
+                    req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req, resp);
                 }
 
             } catch (SQLException e) {
                 req.setAttribute("message", "Authorization error.");
-                req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req,resp);
+                req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req, resp);
             }
 
         } else req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req, resp);
@@ -66,6 +66,7 @@ public class LoginServlet extends HttpServlet {
         req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req, resp);
 
     }
+
 
 
 

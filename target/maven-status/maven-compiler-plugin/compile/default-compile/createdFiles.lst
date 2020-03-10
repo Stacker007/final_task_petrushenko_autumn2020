@@ -9,6 +9,7 @@ by\simplypvs\model\Task.class
 by\simplypvs\servlets\filters\AuthFilter.class
 by\simplypvs\servlets\LoginServlet.class
 by\simplypvs\model\User.class
+by\simplypvs\connectors\Auth.class
 by\simplypvs\dao\TaskDAO.class
 by\simplypvs\servlets\filters\EncodingResponseFilter.class
 by\simplypvs\servlets\MD5.class

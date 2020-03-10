@@ -19,7 +19,7 @@ body
 #Layer1
 {
    background-color: transparent;
-   background-image: url(../img/bckgrnd.png);
+   background-image: url(${pageContext.request.contextPath}/WEB-INF/view/images/bckgrnd.png);
    background-repeat: no-repeat;
    background-position: center top;
    background-attachment: fixed;

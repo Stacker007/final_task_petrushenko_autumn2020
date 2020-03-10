@@ -6,6 +6,7 @@ D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\model\User.
 D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\servlets\IndexServlet.java
 D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\servlets\TaskPageServlet.java
 D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\servlets\filters\EncodingResponseFilter.java
+D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\connectors\Auth.java
 D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\dao\TaskDAO.java
 D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\servlets\LogoutServlet.java
 D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\servlets\MD5.java
