@@ -6,9 +6,8 @@ import org.jetbrains.annotations.NotNull;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class UserDAO implements DAO<User,String> {
 
@@ -49,18 +48,58 @@ public class UserDAO implements DAO<User,String> {
     }
 
     @Override
-    public User read(String s) {
-        return null;
+    public User read(@NotNull final String login) {
+        final User result = new User();
+        result.setId(-1);
+
+        try (PreparedStatement statement = connection.prepareStatement(SQLUser.GET.QUERY)) {
+            statement.setString(1, login);
+            final ResultSet rs = statement.executeQuery();
+            if (rs.next()) {
+                result.setId(Integer.parseInt(rs.getString("id")));
+                result.setLogin(login);
+                result.setPassword(rs.getString("password"));
+                result.setRole(new User.Role(rs.getInt("rol_id"), rs.getString("role")));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return result;
     }
 
+    /**
+     * Update User's password by id.
+     *
+     * @param user new user's state.
+     * @return True if success. False if fail.
+     */
     @Override
-    public boolean update(User model) {
-        return false;
+    public boolean update(@NotNull final User user) {
+        boolean result = false;
+
+        try (PreparedStatement statement = connection.prepareStatement(SQLUser.UPDATE.QUERY)) {
+            statement.setString(1, user.getPassword());
+            statement.setInt(2, user.getId());
+            result = statement.executeQuery().next();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return result;
     }
 
-    @Override
-    public boolean delete(User model) {
-        return false;
+     @Override
+    public boolean delete(@NotNull final User user) {
+        boolean result = false;
+
+        try (PreparedStatement statement = connection.prepareStatement(SQLUser.DELETE.QUERY)) {
+            statement.setInt(1, user.getId());
+            statement.setString(2, user.getLogin());
+            statement.setString(3, user.getPassword());
+            result = statement.executeQuery().next();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return result;
     }
     enum SQLUser {
         GET("SELECT u.id, u.login, u.password, r.id AS rol_id, r.role FROM users AS u LEFT JOIN roles AS r ON u.role = r.id WHERE u.login = (?)"),

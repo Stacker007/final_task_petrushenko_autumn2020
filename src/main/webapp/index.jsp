@@ -1,8 +1,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <style>
-<%@include file='/WEB-INF/view/css/simply.css' %>
-<%@include file='/WEB-INF/view/css/login.css' %>
+<%@include file='./css/index.css' %>
+<%@include file='./css/index.css' %>
 
 
 </style>
@@ -41,14 +41,14 @@ $(document).ready(function()
 <div id="wb_Text2" style="position:absolute;left:120px;top:99px;width:250px;height:24px;text-align:center;z-index:6;">
 <span style="color:#3F7CBF;font-family:'Montserrat';font-weight:800;font-size:17px;">The simplest TO-DO list</span></div>
 <div id="wb_Form1" style="position:absolute;left:110px;top:145px;width:265px;height:261px;z-index:7;">
-<form name="registration" method="post" action="" id="Form1">
+<form name="registration" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="Form1">
 <div id="wb_Text3" style="position:absolute;left:49px;top:22px;width:166px;height:24px;text-align:center;z-index:0;">
-<span style="color:#3F7CBF;font-family:'Montserrat';font-weight:800;font-size:17px;">Login:</span></div>
-<input type="text" id="Editbox1" style="position:absolute;left:56px;top:58px;width:141px;height:18px;z-index:1;" name="login" value="" spellcheck="false" placeholder="Login">
-<input type="password" id="Editbox2" style="position:absolute;left:56px;top:109px;width:141px;height:18px;z-index:2;" name="password" value="" spellcheck="false" placeholder="Password">
-<input type="submit" id="Button1" name="" value="Sign IN" style="position:absolute;left:75px;top:154px;width:115px;height:35px;z-index:3;">
+<span style="color:#3F7CBF;font-family:'Montserrat';font-weight:800;font-size:17px;">Registration:</span></div>
+<input type="text" id="Editbox1" style="position:absolute;left:56px;top:58px;width:141px;height:18px;z-index:1;" name="Editbox1" value="" spellcheck="false" placeholder="Login">
+<input type="password" id="Editbox2" style="position:absolute;left:56px;top:109px;width:141px;height:18px;z-index:2;" name="Editbox1" value="" spellcheck="false" placeholder="Password">
+<input type="submit" id="Button1" name="" value="Sign UP" style="position:absolute;left:75px;top:154px;width:115px;height:35px;z-index:3;">
 <div id="wb_Text4" style="position:absolute;left:7px;top:204px;width:250px;height:48px;text-align:center;z-index:4;">
-<span style="color:#3F7CBF;font-family:Montserrat;font-size:17px;"><u><a href="/simply">If you don't have an account yet, click here</a></u></span></div>
+<span style="color:#3F7CBF;font-family:Montserrat;font-size:17px;"><u><a href="/simply/login">If you are already registered, click here</a></u></span></div>
 </form>
 </div>
 </div>

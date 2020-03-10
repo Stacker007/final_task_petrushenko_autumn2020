@@ -1,3 +1,4 @@
+D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\connectors\ConnectionProvider.java
 D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\servlets\LoginServlet.java
 D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\model\Task.java
 D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\servlets\filters\EncodingRequestFilter.java
@@ -11,3 +12,4 @@ D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\servlets\fi
 D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\servlets\listeners\AppContextListener.java
 D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\dao\UserDAO.java
 D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\dao\DAO.java
+D:\EPAM\final_task_petrushenko_autumn2020\src\main\java\by\simplypvs\connectors\SQLConnectionData.java
