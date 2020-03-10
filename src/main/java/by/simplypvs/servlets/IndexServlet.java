@@ -8,7 +8,7 @@ import java.io.IOException;
 public class IndexServlet extends HttpServlet {
     public void doGet(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse)
             throws IOException, ServletException {
-        httpServletRequest.getRequestDispatcher("./index.jsp").forward(httpServletRequest, httpServletResponse);
+        httpServletRequest.getRequestDispatcher("/WEB-INF/view/index.jsp").forward(httpServletRequest, httpServletResponse);
     }
 
 }

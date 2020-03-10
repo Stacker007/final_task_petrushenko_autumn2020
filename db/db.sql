@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS tasks (
   foreign key (user_id) references users (id)
 );
 --Создаем пользователей.
-INSERT INTO users (id, login, password, role) VALUES (DEFAULT, 'admin', 'd3b8cc3e6c9693062cdfde1a234f8fcc', 1);
+INSERT INTO users (id, login, password, role) VALUES (DEFAULT, 'admin', '63a9f0ea7bb98050796b649e85481845', 1);
 INSERT INTO users (id, login, password, role) VALUES (DEFAULT, 'Vladimir', 'c4ca4238a0b923820dcc509a6f75849b', 2);
 --Password of admin: "root"
 --Password of Vladimir: "1"

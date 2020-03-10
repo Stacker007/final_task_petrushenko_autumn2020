@@ -46,6 +46,7 @@ $(document).ready(function()
 <span style="color:#3F7CBF;font-family:'Montserrat';font-weight:800;font-size:17px;">Login:</span></div>
 <input type="text" id="Editbox1" style="position:absolute;left:56px;top:58px;width:141px;height:18px;z-index:1;" name="login" value="" spellcheck="false" placeholder="Login">
 <input type="password" id="Editbox2" style="position:absolute;left:56px;top:109px;width:141px;height:18px;z-index:2;" name="password" value="" spellcheck="false" placeholder="Password">
+<h2>${message} </h2>
 <input type="submit" id="Button1" name="" value="Sign IN" style="position:absolute;left:75px;top:154px;width:115px;height:35px;z-index:3;">
 <div id="wb_Text4" style="position:absolute;left:7px;top:204px;width:250px;height:48px;text-align:center;z-index:4;">
 <span style="color:#3F7CBF;font-family:Montserrat;font-size:17px;"><u><a href="/simply">If you don't have an account yet, click here</a></u></span></div>

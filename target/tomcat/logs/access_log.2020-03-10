@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:20:37:48 +0300] "GET /simply HTTP/1.1" 200 105645 http-bio-8888-exec-1 2586
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:20:37:49 +0300] "GET /simply.css HTTP/1.1" 200 106710 http-bio-8888-exec-2 514
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:20:37:49 +0300] "GET /index.css HTTP/1.1" 200 106710 http-bio-8888-exec-3 448
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:20:37:49 +0300] "GET /img/bckgrnd.png HTTP/1.1" 200 106710 http-bio-8888-exec-5 8
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:20:37:49 +0300] "GET /favicon.ico HTTP/1.1" 200 106710 http-bio-8888-exec-6 6
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:20:37:57 +0300] "POST /simply HTTP/1.1" 200 105666 http-bio-8888-exec-8 132
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:20:37:57 +0300] "GET /simply.css HTTP/1.1" 200 106710 http-bio-8888-exec-9 5
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:20:37:58 +0300] "GET /index.css HTTP/1.1" 200 106710 http-bio-8888-exec-10 5
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:20:37:58 +0300] "GET /img/bckgrnd.png HTTP/1.1" 200 106710 http-bio-8888-exec-10 3
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:20:37:58 +0300] "GET /favicon.ico HTTP/1.1" 200 106710 http-bio-8888-exec-10 4
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:20:38:04 +0300] "POST /simply HTTP/1.1" 302 - http-bio-8888-exec-6 69
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:20:38:05 +0300] "GET /simply/task-page HTTP/1.1" 200 6481 http-bio-8888-exec-6 256
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:20:38:05 +0300] "GET /simply/simply.css HTTP/1.1" 200 106710 http-bio-8888-exec-6 12
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:20:38:05 +0300] "GET /simply/task_page.css HTTP/1.1" 200 106710 http-bio-8888-exec-8 8
+0:0:0:0:0:0:0:1 - - [10/Mar/2020:20:38:05 +0300] "GET /favicon.ico HTTP/1.1" 200 106710 http-bio-8888-exec-8 3

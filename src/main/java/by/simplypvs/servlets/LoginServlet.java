@@ -11,7 +11,11 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.sql.SQLException;
+
+import static java.util.Objects.nonNull;
 
 @WebServlet("/simply")
 public class LoginServlet extends HttpServlet {
@@ -20,30 +24,46 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        String username  = req.getParameter("login");
-        String password = DigestUtils.md5Hex(req.getParameter("password"));
-//        String submitParam = req.getParameter("submit");
-        User user = new UserDAO(ConnectionProvider.getConnection()).read(username);
-
-        if (password.equals(user.getPassword())){
-            req.setAttribute("message", "Data not found. Try again. ");
-            req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req, resp);
-
-
-        } else{
-            req.setAttribute("message", "Data not found. Try again. ");
-            req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req, resp);
-
+        final String login = req.getParameter("login");
+        String password = null;
+        if (nonNull(req.getParameter("password"))) {
+            password = req.getParameter("password");
+            password = DigestUtils.md5Hex(password);
         }
+        final HttpSession session = req.getSession();
+        if (nonNull(session) &&
+                nonNull(session.getAttribute("login")) &&
+                nonNull(session.getAttribute("password"))) {
+            req.getRequestDispatcher("/simply/task-page").forward(req, resp);
+        } else if (nonNull(login) && nonNull(password)) {
 
+            try {
+                User user = new UserDAO(ConnectionProvider.getConnection()).read(login);
+                if (password.equals(user.getPassword())) {
+                    req.getSession().setAttribute("password", password);
+                    req.getSession().setAttribute("login", login);
+                    req.getSession().setAttribute("role", user.getRole().getRole());
 
-        super.doPost(req, resp);
+                    req.setAttribute("message", "ok");
+                    resp.sendRedirect("/simply/task-page");
+
+                }else {
+                    req.setAttribute("message", "Authentication error.");
+                    req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req,resp);
+                }
+
+            } catch (SQLException e) {
+                req.setAttribute("message", "Authorization error.");
+                req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req,resp);
+            }
+
+        } else req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req, resp);
     }
 
     @Override
-    public void doGet(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse)
+    public void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws IOException, ServletException {
-        httpServletRequest.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(httpServletRequest, httpServletResponse);
+        req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req, resp);
 
     }
 

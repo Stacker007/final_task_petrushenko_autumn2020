@@ -5,7 +5,7 @@
 http://xmlns.jcp.org/xml/ns/javaee "
          version="3.1">
 
-  <!--filter check exist session for sign in-->
+  <!--filter check exist session for sign in
   <filter>
     <filter-name>AuthFilter</filter-name>
     <filter-class>by.simplypvs.servlets.filters.AuthFilter</filter-class>
@@ -14,7 +14,7 @@ http://xmlns.jcp.org/xml/ns/javaee "
   <filter-mapping>
     <filter-name>AuthFilter</filter-name>
     <url-pattern>/simply</url-pattern>
-  </filter-mapping>
+  </filter-mapping>-->
   <!--Encoding filter UTF-8 for all requests
   <filter>
     <filter-name>EncodingRequestFilter</filter-name>

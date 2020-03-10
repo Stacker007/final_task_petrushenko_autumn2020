@@ -15,3 +15,4 @@ by\simplypvs\servlets\MD5.class
 by\simplypvs\servlets\listeners\AppContextListener.class
 by\simplypvs\connectors\SQLConnectionData.class
 by\simplypvs\dao\DAO.class
+by\simplypvs\servlets\TaskPageServlet.class
