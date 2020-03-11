@@ -9,12 +9,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/simply/task-page")
+@WebServlet("/")
 public class TaskPageServlet extends HttpServlet {
     public void doGet(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse)
             throws IOException, ServletException {
         if (!Auth.checkAuth(httpServletRequest.getSession(),"admin","user")){
-            httpServletRequest.getRequestDispatcher("/WEB-INF/view/access-denied.jsp").forward(httpServletRequest,httpServletResponse);
+            httpServletResponse.sendRedirect(httpServletRequest.getContextPath()+"/login");
+//            httpServletRequest.send().forward(httpServletRequest,httpServletResponse);
         }else
             httpServletRequest.getRequestDispatcher("/WEB-INF/view/task_page.jsp").forward(httpServletRequest, httpServletResponse);
     }

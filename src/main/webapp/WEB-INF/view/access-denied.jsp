@@ -41,7 +41,7 @@ $(document).ready(function()
 <div id="wb_Text2" style="position:absolute;left:120px;top:99px;width:250px;height:24px;text-align:center;z-index:1;">
 <span style="color:#3F7CBF;font-family:'Montserrat';font-weight:800;font-size:17px;">The simplest TO-DO list</span></div>
 <div id="wb_Text6" style="position:absolute;left:138px;top:459px;width:335px;height:33px;z-index:2;">
-<span style="background-color:#000000;color:#FFFFFF;font-family:'Montserrat';font-weight:800;font-size:24px;"><a href="./login.html">You&nbsp; can go to login page</a></span></div>
+<span style="background-color:#000000;color:#FFFFFF;font-family:'Montserrat';font-weight:800;font-size:24px;"><a href="${pageContext.request.contextPath}/login">You&nbsp; can go to login page</a></span></div>
 <div id="wb_Image1" style="position:absolute;left:138px;top:183px;width:318px;height:276px;z-index:3;">
 <img src="${pageContext.request.contextPath}/WEB-INF/view/images/403.png" id="Image1" alt=""></div>
 </div>

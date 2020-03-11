@@ -17,7 +17,7 @@ import java.sql.SQLException;
 
 import static java.util.Objects.nonNull;
 
-@WebServlet("/simply")
+@WebServlet("/login")
 public class LoginServlet extends HttpServlet {
 
     @SneakyThrows
@@ -34,7 +34,7 @@ public class LoginServlet extends HttpServlet {
         if (nonNull(session) &&
                 nonNull(session.getAttribute("login")) &&
                 nonNull(session.getAttribute("password"))) {
-            req.getRequestDispatcher("/simply/task-page").forward(req, resp);
+            req.getRequestDispatcher(req.getContextPath()+"/").forward(req, resp);
         } else if (nonNull(login) && nonNull(password)) {
 
             try {
@@ -45,7 +45,7 @@ public class LoginServlet extends HttpServlet {
                     req.getSession().setAttribute("role", user.getRole().getRole());
 
                     req.setAttribute("message", "ok");
-                    resp.sendRedirect("/simply/task-page");
+                    resp.sendRedirect(req.getContextPath()+"/");
 
                 } else {
                     req.setAttribute("message", "Authentication error.");

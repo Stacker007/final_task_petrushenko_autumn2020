@@ -48,7 +48,7 @@ $(document).ready(function()
 <input type="password" id="Editbox2" style="position:absolute;left:56px;top:109px;width:141px;height:18px;z-index:2;" name="Editbox1" value="" spellcheck="false" placeholder="Password">
 <input type="submit" id="Button1" name="" value="Sign UP" style="position:absolute;left:75px;top:154px;width:115px;height:35px;z-index:3;">
 <div id="wb_Text4" style="position:absolute;left:7px;top:204px;width:250px;height:48px;text-align:center;z-index:4;">
-<span style="color:#3F7CBF;font-family:Montserrat;font-size:17px;"><u><a href="/simply/login">If you are already registered, click here</a></u></span></div>
+<span style="color:#3F7CBF;font-family:Montserrat;font-size:17px;"><u><a href="${pageContext.request.contextPath}/login">If you are already registered, click here</a></u></span></div>
 </form>
 </div>
 </div>
