@@ -2,21 +2,21 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <style>
 <%@include file='/WEB-INF/view/css/simply.css' %>
-<%@include file='/WEB-INF/view/css/login.css' %>
+<%@include file='/WEB-INF/view/css/access-denied.css' %>
 
 
 </style>
 <html>
 <head>
 <meta charset="utf-8">
-<title>Registration | Simply</title>
+<title>403 | Simply</title>
 <meta name="generator" content="WYSIWYG Web Builder 14 - http://www.wysiwygwebbuilder.com">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Geometr415+Blk+BT" rel="stylesheet">
 <link href="simply.css" rel="stylesheet">
-<link href="index.css" rel="stylesheet">
+<link href="access-denied.css" rel="stylesheet">
 <script type="text/javascript">
     <%@include file="/WEB-INF/view/js/jquery-1.12.4.min.js"%>
 </script>
@@ -43,7 +43,7 @@ $(document).ready(function()
 <div id="wb_Text6" style="position:absolute;left:138px;top:459px;width:335px;height:33px;z-index:2;">
 <span style="background-color:#000000;color:#FFFFFF;font-family:'Montserrat';font-weight:800;font-size:24px;"><a href="${pageContext.request.contextPath}/login">You&nbsp; can go to login page</a></span></div>
 <div id="wb_Image1" style="position:absolute;left:138px;top:183px;width:318px;height:276px;z-index:3;">
-<img src="${pageContext.request.contextPath}/WEB-INF/view/images/403.png" id="Image1" alt=""></div>
+<img src="${pageContext.request.contextPath}/images/403.png" id="Image1" alt=""></div>
 </div>
 </div>
 </body>

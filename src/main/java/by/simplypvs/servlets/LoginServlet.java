@@ -34,7 +34,7 @@ public class LoginServlet extends HttpServlet {
         if (nonNull(session) &&
                 nonNull(session.getAttribute("login")) &&
                 nonNull(session.getAttribute("password"))) {
-            req.getRequestDispatcher(req.getContextPath()+"/").forward(req, resp);
+            req.getRequestDispatcher("/").forward(req, resp);
         } else if (nonNull(login) && nonNull(password)) {
 
             try {
@@ -45,7 +45,7 @@ public class LoginServlet extends HttpServlet {
                     req.getSession().setAttribute("role", user.getRole().getRole());
 
                     req.setAttribute("message", "ok");
-                    resp.sendRedirect(req.getContextPath()+"/");
+                    resp.sendRedirect("/");
 
                 } else {
                     req.setAttribute("message", "Authentication error.");

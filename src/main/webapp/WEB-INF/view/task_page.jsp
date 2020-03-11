@@ -10,7 +10,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Page</title>
+<title>Task Page | Simply </title>
 <meta name="generator" content="WYSIWYG Web Builder 14 - http://www.wysiwygwebbuilder.com">
 <link href="simply.css" rel="stylesheet">
 <link href="task_page.css" rel="stylesheet">

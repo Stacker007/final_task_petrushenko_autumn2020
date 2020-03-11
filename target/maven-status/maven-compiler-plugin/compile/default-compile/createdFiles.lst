@@ -13,6 +13,7 @@ by\simplypvs\dao\TaskDAO.class
 by\simplypvs\servlets\filters\EncodingResponseFilter.class
 by\simplypvs\servlets\MD5.class
 by\simplypvs\servlets\listeners\AppContextListener.class
+by\simplypvs\servlets\Servlet403page.class
 by\simplypvs\servlets\RegServlet.class
 by\simplypvs\connectors\SQLConnectionData.class
 by\simplypvs\dao\DAO.class

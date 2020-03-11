@@ -9,12 +9,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/")
+@WebServlet("/tasks")
 public class TaskPageServlet extends HttpServlet {
     public void doGet(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse)
             throws IOException, ServletException {
         if (!Auth.checkAuth(httpServletRequest.getSession(),"admin","user")){
-            httpServletResponse.sendRedirect(httpServletRequest.getContextPath()+"/login");
+            httpServletResponse.sendRedirect(httpServletRequest.getContextPath()+"/err403");
 //            httpServletRequest.send().forward(httpServletRequest,httpServletResponse);
         }else
             httpServletRequest.getRequestDispatcher("/WEB-INF/view/task_page.jsp").forward(httpServletRequest, httpServletResponse);
