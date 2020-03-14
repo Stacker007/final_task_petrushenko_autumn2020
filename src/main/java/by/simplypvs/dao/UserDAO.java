@@ -38,7 +38,7 @@ public class UserDAO implements DAO<User,String> {
         try (PreparedStatement statement = connection.prepareStatement(SQLUser.INSERT.QUERY)) {
             statement.setString(1, user.getLogin());
             statement.setString(2, user.getPassword());
-            statement.setInt(3,user.getRole().getId());
+            statement.setString(3,user.getRole());
             result = statement.executeQuery().next();
         } catch (SQLException e) {
             e.printStackTrace();
@@ -59,7 +59,7 @@ public class UserDAO implements DAO<User,String> {
                 result.setId(Integer.parseInt(rs.getString("id")));
                 result.setLogin(login);
                 result.setPassword(rs.getString("password"));
-                result.setRole(new User.Role(rs.getInt("rol_id"), rs.getString("role")));
+                result.setRole(rs.getString("role"));
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -102,7 +102,7 @@ public class UserDAO implements DAO<User,String> {
         return result;
     }
     enum SQLUser {
-        GET("SELECT u.id, u.login, u.password, r.id AS rol_id, r.role FROM users AS u LEFT JOIN roles AS r ON u.role = r.id WHERE u.login = (?)"),
+        GET("SELECT u.id, u.login, u.password, u.role FROM users AS u  WHERE u.login = (?)"),
         INSERT("INSERT INTO users (id, login, password, role) VALUES (DEFAULT, (?), (?), (?)) RETURNING id"),
         DELETE("DELETE FROM users WHERE id = (?) AND login = (?) AND password = (?) RETURNING id"),
         UPDATE("UPDATE users SET password = (?) WHERE id = (?) RETURNING id");

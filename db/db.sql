@@ -1,20 +1,11 @@
 CREATE DATABASE simply ENCODING 'UTF-8';
 
-CREATE TABLE IF NOT EXISTS roles (
-  id   SERIAL unique PRIMARY KEY,
-  role VARCHAR(5) NOT NULL
-);
-
-INSERT INTO roles (id, role) VALUES (DEFAULT, 'admin');
-INSERT INTO roles (id, role) VALUES (DEFAULT, 'user');
-
-
+CREATE TYPE roles AS ENUM ('admin', 'user');
 CREATE TABLE IF NOT EXISTS users (
   id       SERIAL unique PRIMARY KEY,
   login    VARCHAR(32) UNIQUE NOT NULL,
-  password VARCHAR(32) UNIQUE NOT NULL,
-  role     INTEGER     NOT NULL,
-  FOREIGN KEY (role) REFERENCES roles (id)
+  password VARCHAR(32) NOT NULL,
+  role     roles
 );
 CREATE TYPE tsk_stat AS ENUM ('active', 'completed', 'trash');
 CREATE TABLE IF NOT EXISTS tasks (
@@ -28,8 +19,8 @@ CREATE TABLE IF NOT EXISTS tasks (
   foreign key (user_id) references users (id)
 );
 --Создаем пользователей.
-INSERT INTO users (id, login, password, role) VALUES (DEFAULT, 'admin', '63a9f0ea7bb98050796b649e85481845', 1);
-INSERT INTO users (id, login, password, role) VALUES (DEFAULT, 'Vladimir', 'c4ca4238a0b923820dcc509a6f75849b', 2);
+INSERT INTO users (id, login, password, role) VALUES (DEFAULT, 'admin', '63a9f0ea7bb98050796b649e85481845', 'admin');
+INSERT INTO users (id, login, password, role) VALUES (DEFAULT, 'Vladimir', 'c4ca4238a0b923820dcc509a6f75849b', 'user');
 --Password of admin: "root"
 --Password of Vladimir: "1"
 

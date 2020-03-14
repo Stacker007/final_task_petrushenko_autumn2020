@@ -10,12 +10,12 @@ public class ConnectionProvider implements SQLConnectionData {
 
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
 
-
-
+        if (!(connection == null)) return connection;
         Class.forName("org.postgresql.Driver");
-        connection = DriverManager.getConnection(connURL, username,pwd);
+        connection = DriverManager.getConnection(connURL, username, pwd);
         return connection;
     }
+
     public static void closeConnection() throws SQLException {
         connection.close();
     }

@@ -16,19 +16,8 @@ public class User {
 
     private String password;
 
-    private Role role;
+    private String role;
 
-
-    @Data
-    @AllArgsConstructor
-    public static class Role {
-
-        private int id;
-
-        String role;
-
-
-    }
 
 
 }

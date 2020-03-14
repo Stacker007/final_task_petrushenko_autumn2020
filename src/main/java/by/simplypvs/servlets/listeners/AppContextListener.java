@@ -1,5 +1,8 @@
 package by.simplypvs.servlets.listeners;
 
+import by.simplypvs.connectors.ConnectionProvider;
+import lombok.SneakyThrows;
+
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
@@ -11,24 +14,11 @@ import java.sql.SQLException;
 public class AppContextListener implements ServletContextListener {
     @Override
     public void contextInitialized(ServletContextEvent sce) {
-        final String user = "postgres";
-        final String password = "root";
-        final String url = "jdbc:postgresql://localhost:5432/simply";
-
-
-        try {
-            final Connection connection = DriverManager.getConnection(url, user, password);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
-
     }
 
+    @SneakyThrows
     @Override
     public void contextDestroyed(ServletContextEvent sce) {
-
-
-
+        ConnectionProvider.closeConnection();
     }
 }

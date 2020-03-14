@@ -27,14 +27,13 @@ public class LoginServlet extends HttpServlet {
         final String login = req.getParameter("login");
         String password = null;
         if (nonNull(req.getParameter("password"))) {
-            password = req.getParameter("password");
-            password = DigestUtils.md5Hex(password);
+            password = DigestUtils.md5Hex(req.getParameter("password"));
         }
         final HttpSession session = req.getSession();
         if (nonNull(session) &&
                 nonNull(session.getAttribute("login")) &&
                 nonNull(session.getAttribute("password"))) {
-            req.getRequestDispatcher("/").forward(req, resp);
+            req.getRequestDispatcher("tasks").forward(req, resp);
         } else if (nonNull(login) && nonNull(password)) {
 
             try {
@@ -42,28 +41,28 @@ public class LoginServlet extends HttpServlet {
                 if (password.equals(user.getPassword())) {
                     req.getSession().setAttribute("password", password);
                     req.getSession().setAttribute("login", login);
-                    req.getSession().setAttribute("role", user.getRole().getRole());
+                    req.getSession().setAttribute("role", user.getRole());
 
                     req.setAttribute("message", "ok");
-                    resp.sendRedirect("/");
+                    resp.sendRedirect("tasks");
 
                 } else {
                     req.setAttribute("message", "Authentication error.");
-                    req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req, resp);
+                    req.getRequestDispatcher("WEB-INF/view/login.jsp").forward(req, resp);
                 }
 
             } catch (SQLException e) {
                 req.setAttribute("message", "Authorization error.");
-                req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req, resp);
+                req.getRequestDispatcher("WEB-INF/view/login.jsp").forward(req, resp);
             }
 
-        } else req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req, resp);
+        } else req.getRequestDispatcher("WEB-INF/view/login.jsp").forward(req, resp);
     }
 
     @Override
     public void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws IOException, ServletException {
-        req.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(req, resp);
+        req.getRequestDispatcher("WEB-INF/view/login.jsp").forward(req, resp);
 
     }
 

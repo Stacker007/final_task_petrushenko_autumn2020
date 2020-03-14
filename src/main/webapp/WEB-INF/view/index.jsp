@@ -41,7 +41,7 @@ $(document).ready(function()
 <div id="wb_Text2" style="position:absolute;left:120px;top:99px;width:250px;height:24px;text-align:center;z-index:6;">
 <span style="color:#3F7CBF;font-family:'Montserrat';font-weight:800;font-size:17px;">The simplest TO-DO list</span></div>
 <div id="wb_Form1" style="position:absolute;left:110px;top:145px;width:265px;height:261px;z-index:7;">
-<form name="registration" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="Form1">
+<form name="registration" method="post" action="" id="Form1">
 <div id="wb_Text3" style="position:absolute;left:49px;top:22px;width:166px;height:24px;text-align:center;z-index:0;">
 <span style="color:#3F7CBF;font-family:'Montserrat';font-weight:800;font-size:17px;">Registration:</span></div>
 <input type="text" id="Editbox1" style="position:absolute;left:56px;top:58px;width:141px;height:18px;z-index:1;" name="Editbox1" value="" spellcheck="false" placeholder="Login">

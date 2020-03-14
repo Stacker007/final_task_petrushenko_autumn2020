@@ -14,7 +14,6 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Geometr415+Blk+BT" rel="stylesheet">
 <link href="simply.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <script type="text/javascript">
