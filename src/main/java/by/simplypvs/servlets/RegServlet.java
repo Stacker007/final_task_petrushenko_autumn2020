@@ -36,12 +36,8 @@ public class RegServlet extends HttpServlet {
             try {
                 User user = new User(-1,login,password,"user");
                 if ((new UserDAO(ConnectionProvider.getConnection())).create(user)){
-                    req.getSession().setAttribute("password", password);
-                    req.getSession().setAttribute("login", login);
-                    req.getSession().setAttribute("role", user.getRole());
 
-                    req.setAttribute("message", "ok");
-                    resp.sendRedirect("tasks");
+                    resp.sendRedirect("login");
 
                 } else {
                     req.setAttribute("message", "Create user error.");

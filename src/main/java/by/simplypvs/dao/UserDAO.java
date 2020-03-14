@@ -103,7 +103,7 @@ public class UserDAO implements DAO<User,String> {
     }
     enum SQLUser {
         GET("SELECT u.id, u.login, u.password, u.role FROM users AS u  WHERE u.login = (?)"),
-        INSERT("INSERT INTO users (id, login, password, role) VALUES (DEFAULT, (?), (?), (?)) RETURNING id"),
+        INSERT("INSERT INTO users (id, login, password, role) VALUES (DEFAULT, (?), (?), CAST ((?) AS roles)) RETURNING id"),
         DELETE("DELETE FROM users WHERE id = (?) AND login = (?) AND password = (?) RETURNING id"),
         UPDATE("UPDATE users SET password = (?) WHERE id = (?) RETURNING id");
 
