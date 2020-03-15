@@ -1,13 +1,13 @@
 package by.simplypvs.dao;
 
 import by.simplypvs.model.Task;
-import by.simplypvs.model.User;
 import org.jetbrains.annotations.NotNull;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class TaskDAO implements DAO<Task, Integer> {
     /**
@@ -100,14 +100,66 @@ public class TaskDAO implements DAO<Task, Integer> {
         }
         return result;
     }
+    public ArrayList<Task> getLists (int userID,  String afterDate, String beforeDate){
+        ArrayList<Task> tasks = new ArrayList<>();
+        try(PreparedStatement statement = connection.prepareStatement(SQLTask.GET_LIST.QUERY)){
+            statement.setInt(1, userID);
+            statement.setString(2,afterDate);
+            statement.setString(3,beforeDate);
+
+            final ResultSet rs = statement.executeQuery();
+
+            while (rs.next()) {
+                Task task = new Task();
+                task.setId(rs.getInt("id"));
+                task.setUserID(rs.getInt("user_id"));
+                task.setTaskName(rs.getString("task_name"));
+                task.setDescription(rs.getString("description"));
+                task.setDate(rs.getDate("task_date"));
+                task.setFilePath(rs.getString("file_path"));
+                task.setStatus(rs.getString("status"));
+                tasks.add(task);
+//                rs.next();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return tasks;
+    }
+    public ArrayList<Task> getBinList (int userID){
+        ArrayList<Task> tasks = new ArrayList<>();
+        try(PreparedStatement statement = connection.prepareStatement(SQLTask.GET_BIN_LIST.QUERY)){
+            statement.setInt(1, userID);
+
+            final ResultSet rs = statement.executeQuery();
+
+            while (rs.next()) {
+                Task task = new Task();
+                task.setId(rs.getInt("id"));
+                task.setUserID(rs.getInt("user_id"));
+                task.setTaskName(rs.getString("task_name"));
+                task.setDescription(rs.getString("description"));
+                task.setDate(rs.getDate("task_date"));
+                task.setFilePath(rs.getString("file_path"));
+                task.setStatus(rs.getString("status"));
+                tasks.add(task);
+//                rs.next();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return tasks;
+    }
 
     enum SQLTask {
         GET("SELECT t.id, t.user_id, t.task_name, t.description, t.task_date, t.file_path, t.status FROM tasks AS t  WHERE t.id = (?)"),
         INSERT("INSERT INTO tasks (id, user_id, task_name, description, task_date, file_path, status) " +
                 "VALUES (DEFAULT, (?), (?), (?), (?), (?), CAST ((?) AS tsk_stat)) RETURNING id"),
         DELETE("DELETE FROM tasks WHERE id = (?) RETURNING id"),
-        UPDATE("UPDATE tasks SET user_id = (?), task_name = (?), description = (?), task_date = (?), file_path = (?), status = CAST ((?) AS tsk_stat)   WHERE id = (?) RETURNING id");
-        //                                          1                2                  3               4                 5             6               7
+        UPDATE("UPDATE tasks SET user_id = (?), task_name = (?), description = (?), task_date = (?), file_path = (?), status = CAST ((?) AS tsk_stat)   WHERE id = (?) RETURNING id"),
+        GET_LIST("SELECT * FROM tasks WHERE user_id = (?) AND task_date >= CAST((?) AS date) AND task_date <= CAST((?) AS date) AND status = 'active'"),
+        GET_BIN_LIST("SELECT * FROM tasks WHERE status = 'trash' and user_id = (?) ");
+//        OR status = 'trash' OR status = 'completed'and user_id = (?)
 
         String QUERY;
 

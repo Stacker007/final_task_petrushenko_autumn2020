@@ -1,0 +1,192 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #ACC7E3;
+   background-image: url(images/setwalls.ru-10872.jpg);
+   background-attachment: scroll;
+   background-position: left top;
+   background-repeat: repeat;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#Layer1
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2 div
+{
+   text-align: center;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#ThemeableButton1
+{
+   font-family: "Montserrat";
+   font-weight: 800;
+   font-size: 19px;
+   font-style: normal;
+   border-width: 0px;
+   margin: 0;
+}
+#ThemeableButton1 .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#ThemeableButton1.ui-corner-all
+{
+   border-bottom-left-radius: 7px;
+   border-top-left-radius: 7px;
+}
+#ThemeableButton1.ui-corner-all
+{
+   border-bottom-right-radius: 7px;
+   border-top-right-radius: 7px;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#Tabs1.ui-widget
+{
+   font-size: 1em !important;
+}
+#Tabs1
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #FFFFFF;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+}
+#Tabs1 .ui-tabs-nav
+{
+   font-family: "Montserrat";
+   font-weight: 800;
+   font-size: 16px;
+   line-height: 1.0;
+   padding: 4px 4px 0px 4px;
+}
+#Tabs1 .ui-tabs-nav li
+{
+   font-family: "Montserrat";
+   font-weight: 800;
+   font-style: normal;
+   font-size: 16px;
+   margin: 0px 2px -1px 0px;
+   text-align: left;
+}
+#Tabs1 .ui-tabs-nav li a
+{
+   padding: 8px 10px 8px 10px;
+}
+#Tabs1, #Tabs1 .ui-corner-all, #Tabs1 .ui-corner-top
+{
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+#Tabs1, #Tabs1 .ui-corner-all, #Tabs1 .ui-corner-bottom
+{
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+}
+#Tabs1 .ui-helper-reset
+{
+   line-height: 22px;
+}
+#Tabs1 .ui-widget-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border-color: #FFFFFF;
+}
+#Tabs1 .ui-widget-header
+{
+   border: 1px solid #FFFFFF;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#Tabs1 .ui-state-default, #Tabs1 .ui-widget-content .ui-state-default
+{
+   border-color: #3370B7;
+   background-color: #3370B7;
+   background-image: none;
+}
+#Tabs1 .ui-state-hover, #Tabs1 .ui-widget-content .ui-state-hover
+{
+   border-color: #3370B7;
+   background-color: #3370B7;
+   background-image: none;
+}
+#Tabs1 .ui-state-active, #Tabs1 .ui-widget-content .ui-state-active
+{
+   border-color: #FFFFFF;
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#Tabs1 .ui-state-default a, #Tabs1 .ui-widget-content .ui-state-default a
+{
+   color: #FFFFFF;
+}
+#Tabs1 .ui-state-hover a, #Tabs1 .ui-widget-content .ui-state-hover a
+{
+   color: #FFFFFF;
+}
+#Tabs1 .ui-state-active a, #Tabs1 .ui-widget-content .ui-state-active a
+{
+   color: #3370B7;
+}
+#Tabs1 .ui-tabs-panel
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   padding: 0;
+}
+#Tabs1 .description
+{
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}

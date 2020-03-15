@@ -14,8 +14,7 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<link href="simply.css" rel="stylesheet">
-<link href="index.css" rel="stylesheet">
+
 <script type="text/javascript">
     <%@include file="/WEB-INF/view/js/jquery-1.12.4.min.js"%>
 </script>

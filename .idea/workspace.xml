@@ -2,30 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fde6c41a-2f3b-4c7c-9c39-5f16f2350530" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/dao/TestDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/dao/TaskRepos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/base/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/base/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/base/images/ui-icons_777620_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/base/images/ui-icons_777777_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/base/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/base/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/base/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/base/preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/base/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/css/task-page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/images/setwalls.ru-10872.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/js/jquery-ui.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/dao/TaskDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/dao/TaskDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/dao/TestDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/dao/TestDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/RegServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/RegServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/TaskPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/TaskPageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/dao/TaskDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/simplypvs/dao/TaskDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/dao/UserDAO$SQLUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/simplypvs/dao/UserDAO$SQLUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/simplypvs/dao/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/model/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/simplypvs/model/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/RegServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/RegServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/TaskPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/TaskPageServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/login_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/login_jsp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/task_005fpage_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/task_005fpage_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/css/task_page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/task_page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/task-page.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/connectors/Auth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/connectors/ConnectionProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/connectors/SQLConnectionData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/dao/DAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/dao/TaskDAO$SQLTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/dao/TaskDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/dao/TestDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/dao/UserDAO$SQLUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/dao/UserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/model/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/LogoutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/MD5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/RegServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/Servlet403page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/TaskPageServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/simplypvs/servlets/listeners/AppContextListener.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +106,7 @@
       <recent name="D:\EPAM\final_task_petrushenko_autumn2020\src\main\webapp\css" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestDB">
+  <component name="RunManager" selected="Maven. [tomcat7:run]">
     <configuration name="TestDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.simplypvs.dao.TestDB" />
       <module name="final_task_petrushenko_autumn2020" />
@@ -170,10 +187,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="448" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1583422153956" />
-    <state x="488" y="86" key="#com.intellij.ide.util.MemberChooser" timestamp="1584201627450">
+    <state x="488" y="86" key="#com.intellij.ide.util.MemberChooser" timestamp="1584293256237">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="488" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1584201627450" />
+    <state x="488" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1584293256237" />
     <state x="363" y="106" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583595636235">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -195,42 +212,42 @@
     </state>
     <state x="463" y="135" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1583171244339" />
     <state x="463" y="140" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1582970910918" />
-    <state width="1323" height="186" key="GridCell.Tab.0.bottom" timestamp="1584208454915">
+    <state width="1323" height="150" key="GridCell.Tab.0.bottom" timestamp="1584300445676">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="186" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584208454915" />
+    <state width="1323" height="150" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584300445676" />
     <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582974840035" />
-    <state width="1323" height="186" key="GridCell.Tab.0.center" timestamp="1584208454915">
+    <state width="1323" height="150" key="GridCell.Tab.0.center" timestamp="1584300445675">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="186" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1584208454915" />
+    <state width="1323" height="150" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1584300445675" />
     <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582974840034" />
-    <state width="1323" height="186" key="GridCell.Tab.0.left" timestamp="1584208454914">
+    <state width="1323" height="150" key="GridCell.Tab.0.left" timestamp="1584300445675">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="186" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1584208454914" />
+    <state width="1323" height="150" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1584300445675" />
     <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582974840034" />
-    <state width="1323" height="186" key="GridCell.Tab.0.right" timestamp="1584208454915">
+    <state width="1323" height="150" key="GridCell.Tab.0.right" timestamp="1584300445675">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="186" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584208454915" />
+    <state width="1323" height="150" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584300445675" />
     <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582974840034" />
-    <state width="1323" height="186" key="GridCell.Tab.1.bottom" timestamp="1584208454916">
+    <state width="1323" height="186" key="GridCell.Tab.1.bottom" timestamp="1584300010697">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="186" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584208454916" />
-    <state width="1323" height="186" key="GridCell.Tab.1.center" timestamp="1584208454915">
+    <state width="1323" height="186" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584300010697" />
+    <state width="1323" height="186" key="GridCell.Tab.1.center" timestamp="1584300010696">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="186" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1584208454915" />
-    <state width="1323" height="186" key="GridCell.Tab.1.left" timestamp="1584208454915">
+    <state width="1323" height="186" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1584300010696" />
+    <state width="1323" height="186" key="GridCell.Tab.1.left" timestamp="1584300010696">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="186" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1584208454915" />
-    <state width="1323" height="186" key="GridCell.Tab.1.right" timestamp="1584208454916">
+    <state width="1323" height="186" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1584300010696" />
+    <state width="1323" height="186" key="GridCell.Tab.1.right" timestamp="1584300010696">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="186" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1584208454916" />
+    <state width="1323" height="186" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1584300010696" />
     <state x="213" y="25" key="Maven.ArtifactSearchDialog" timestamp="1583436281138">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -331,6 +348,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/by/simplypvs/dao/TaskDAO.java</url>
           <line>79</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/by/simplypvs/dao/TaskDAO.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/by/simplypvs/servlets/TaskPageServlet.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
